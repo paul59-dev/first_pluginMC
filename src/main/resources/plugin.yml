@@ -1,0 +1,13 @@
+name: MyFirstPlugin
+version: '${project.version}'
+main: fr.paul.myfirstplugin.MyFirstPlugin
+api-version: '1.20'
+authors: [Paul]
+description: This is my first plugin Mincraft
+commands:
+  test:
+    description: Ceci est une commande de test
+    permission: test.use
+  alert:
+    description: Ceci est un broadcast custom
+    permission: bc.use
